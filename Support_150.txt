@@ -1,0 +1,138 @@
+THRESH_Support 150
+THRESH_Confidence 0.3
+
+Rule : {tropical fruit ,yogurt } --> {whole milk }
+Rule : {yogurt ,pip fruit } --> {whole milk }
+Rule : {whole milk ,pip fruit } --> {yogurt }
+Rule : {citrus fruit ,yogurt } --> {other vegetables }
+Rule : {tropical fruit ,yogurt } --> {other vegetables }
+Rule : {tropical fruit ,other vegetables } --> {yogurt }
+Rule : {yogurt ,pip fruit } --> {other vegetables }
+Rule : {pip fruit ,other vegetables } --> {yogurt }
+Rule : {whole milk ,butter } --> {other vegetables }
+Rule : {other vegetables ,butter } --> {whole milk }
+Rule : {citrus fruit ,tropical fruit } --> {rolls/buns }
+Rule : {citrus fruit ,rolls/buns } --> {tropical fruit }
+Rule : {tropical fruit ,rolls/buns } --> {citrus fruit }
+Rule : {citrus fruit ,yogurt } --> {rolls/buns }
+Rule : {citrus fruit ,rolls/buns } --> {yogurt }
+Rule : {yogurt ,rolls/buns } --> {citrus fruit }
+Rule : {tropical fruit ,rolls/buns } --> {yogurt }
+Rule : {citrus fruit ,rolls/buns } --> {whole milk }
+Rule : {citrus fruit ,rolls/buns } --> {other vegetables }
+Rule : {tropical fruit ,rolls/buns } --> {other vegetables }
+Rule : {other vegetables ,rolls/buns } --> {whole milk }
+Rule : {tropical fruit ,bottled water } --> {other vegetables }
+Rule : {other vegetables ,bottled water } --> {whole milk }
+Rule : {yogurt ,rolls/buns } --> {bottled water }
+Rule : {yogurt ,bottled water } --> {rolls/buns }
+Rule : {rolls/buns ,bottled water } --> {yogurt }
+Rule : {other vegetables ,bottled water } --> {rolls/buns }
+Rule : {rolls/buns ,bottled water } --> {other vegetables }
+Rule : {whole milk ,bottled beer } --> {bottled water }
+Rule : {whole milk ,bottled water } --> {bottled beer }
+Rule : {bottled beer ,bottled water } --> {whole milk }
+Rule : {other vegetables ,bottled beer } --> {bottled water }
+Rule : {other vegetables ,bottled water } --> {bottled beer }
+Rule : {bottled beer ,bottled water } --> {other vegetables }
+Rule : {yogurt ,curd } --> {whole milk }
+Rule : {yogurt ,other vegetables } --> {curd }
+Rule : {yogurt ,curd } --> {other vegetables }
+Rule : {other vegetables ,curd } --> {yogurt }
+Rule : {curd } --> {yogurt ,other vegetables }
+Rule : {whole milk ,curd } --> {other vegetables }
+Rule : {other vegetables ,curd } --> {whole milk }
+Rule : {whole milk ,beef } --> {other vegetables }
+Rule : {other vegetables ,beef } --> {whole milk }
+Rule : {other vegetables ,bottled beer } --> {soda }
+Rule : {bottled beer ,soda } --> {other vegetables }
+Rule : {yogurt ,bottled water } --> {soda }
+Rule : {yogurt ,soda } --> {bottled water }
+Rule : {bottled water ,soda } --> {yogurt }
+Rule : {rolls/buns ,bottled water } --> {soda }
+Rule : {whole milk ,chicken } --> {other vegetables }
+Rule : {other vegetables ,chicken } --> {whole milk }
+Rule : {yogurt ,fruit/vegetable juice } --> {other vegetables }
+Rule : {other vegetables ,fruit/vegetable juice } --> {yogurt }
+Rule : {whole milk ,fruit/vegetable juice } --> {other vegetables }
+Rule : {other vegetables ,fruit/vegetable juice } --> {whole milk }
+Rule : {yogurt ,soda } --> {fruit/vegetable juice }
+Rule : {yogurt ,fruit/vegetable juice } --> {soda }
+Rule : {soda ,fruit/vegetable juice } --> {yogurt }
+Rule : {other vegetables ,soda } --> {fruit/vegetable juice }
+Rule : {other vegetables ,fruit/vegetable juice } --> {soda }
+Rule : {soda ,fruit/vegetable juice } --> {other vegetables }
+Rule : {yogurt ,newspapers } --> {whole milk }
+Rule : {yogurt ,newspapers } --> {other vegetables }
+Rule : {whole milk ,newspapers } --> {other vegetables }
+Rule : {other vegetables ,newspapers } --> {whole milk }
+Rule : {rolls/buns ,newspapers } --> {whole milk }
+Rule : {pip fruit ,root vegetables } --> {whole milk }
+Rule : {yogurt ,root vegetables } --> {other vegetables }
+Rule : {citrus fruit ,rolls/buns } --> {root vegetables }
+Rule : {other vegetables ,shopping bags } --> {sausage }
+Rule : {sausage ,shopping bags } --> {other vegetables }
+Rule : {rolls/buns ,shopping bags } --> {sausage }
+Rule : {sausage ,shopping bags } --> {rolls/buns }
+Rule : {whole milk ,pork } --> {other vegetables }
+Rule : {other vegetables ,pork } --> {whole milk }
+Rule : {yogurt ,whipped/sour cream } --> {whole milk }
+Rule : {whole milk ,whipped/sour cream } --> {other vegetables }
+Rule : {other vegetables ,whipped/sour cream } --> {whole milk }
+Rule : {root vegetables ,whipped/sour cream } --> {whole milk }
+Rule : {other vegetables ,whipped/sour cream } --> {root vegetables }
+Rule : {root vegetables ,whipped/sour cream } --> {other vegetables }
+Rule : {rolls/buns ,domestic eggs } --> {whole milk }
+Rule : {tropical fruit ,whole milk ,pip fruit } --> {other vegetables }
+Rule : {tropical fruit ,whole milk ,other vegetables } --> {pip fruit }
+Rule : {tropical fruit ,pip fruit ,other vegetables } --> {whole milk }
+Rule : {whole milk ,pip fruit ,other vegetables } --> {tropical fruit }
+Rule : {tropical fruit ,pip fruit } --> {whole milk ,other vegetables }
+Rule : {citrus fruit ,yogurt ,other vegetables } --> {rolls/buns }
+Rule : {citrus fruit ,other vegetables ,rolls/buns } --> {yogurt }
+Rule : {yogurt ,other vegetables ,rolls/buns } --> {citrus fruit }
+Rule : {citrus fruit ,yogurt } --> {other vegetables ,rolls/buns }
+Rule : {citrus fruit ,other vegetables } --> {yogurt ,rolls/buns }
+Rule : {citrus fruit ,rolls/buns } --> {yogurt ,other vegetables }
+Rule : {yogurt ,rolls/buns } --> {citrus fruit ,other vegetables }
+Rule : {citrus fruit ,whole milk ,other vegetables } --> {rolls/buns }
+Rule : {citrus fruit ,rolls/buns } --> {whole milk ,other vegetables }
+Rule : {yogurt ,whole milk ,other vegetables } --> {rolls/buns }
+Rule : {yogurt ,whole milk ,rolls/buns } --> {other vegetables }
+Rule : {yogurt ,other vegetables ,rolls/buns } --> {whole milk }
+Rule : {yogurt ,rolls/buns } --> {whole milk ,other vegetables }
+Rule : {tropical fruit ,whole milk ,other vegetables } --> {soda }
+Rule : {tropical fruit ,whole milk ,soda } --> {other vegetables }
+Rule : {tropical fruit ,other vegetables ,soda } --> {whole milk }
+Rule : {whole milk ,other vegetables ,soda } --> {tropical fruit }
+Rule : {tropical fruit ,soda } --> {whole milk ,other vegetables }
+Rule : {tropical fruit ,other vegetables ,rolls/buns } --> {soda }
+Rule : {tropical fruit ,other vegetables ,soda } --> {rolls/buns }
+Rule : {tropical fruit ,rolls/buns ,soda } --> {other vegetables }
+Rule : {other vegetables ,rolls/buns ,soda } --> {tropical fruit }
+Rule : {tropical fruit ,other vegetables } --> {rolls/buns ,soda }
+Rule : {tropical fruit ,rolls/buns } --> {other vegetables ,soda }
+Rule : {tropical fruit ,soda } --> {other vegetables ,rolls/buns }
+Rule : {other vegetables ,rolls/buns } --> {tropical fruit ,soda }
+Rule : {other vegetables ,soda } --> {tropical fruit ,rolls/buns }
+Rule : {rolls/buns ,soda } --> {tropical fruit ,other vegetables }
+Rule : {yogurt ,rolls/buns ,soda } --> {bottled water }
+Rule : {yogurt ,whole milk ,newspapers } --> {other vegetables }
+Rule : {yogurt ,other vegetables ,newspapers } --> {whole milk }
+Rule : {yogurt ,newspapers } --> {whole milk ,other vegetables }
+Rule : {other vegetables ,newspapers } --> {yogurt ,whole milk }
+Rule : {yogurt ,whole milk ,other vegetables } --> {root vegetables }
+Rule : {yogurt ,whole milk ,root vegetables } --> {other vegetables }
+Rule : {yogurt ,other vegetables ,root vegetables } --> {whole milk }
+Rule : {whole milk ,other vegetables ,root vegetables } --> {yogurt }
+Rule : {yogurt ,root vegetables } --> {whole milk ,other vegetables }
+Rule : {yogurt ,whole milk ,whipped/sour cream } --> {other vegetables }
+Rule : {yogurt ,other vegetables ,whipped/sour cream } --> {whole milk }
+Rule : {yogurt ,whipped/sour cream } --> {whole milk ,other vegetables }
+Rule : {whole milk ,other vegetables ,root vegetables } --> {whipped/sour cream }
+Rule : {whole milk ,other vegetables ,whipped/sour cream } --> {root vegetables }
+Rule : {whole milk ,root vegetables ,whipped/sour cream } --> {other vegetables }
+Rule : {other vegetables ,root vegetables ,whipped/sour cream } --> {whole milk }
+Rule : {whole milk ,whipped/sour cream } --> {other vegetables ,root vegetables }
+Rule : {other vegetables ,whipped/sour cream } --> {whole milk ,root vegetables }
+Rule : {root vegetables ,whipped/sour cream } --> {whole milk ,other vegetables }
